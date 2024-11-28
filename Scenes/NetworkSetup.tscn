@@ -1,8 +1,9 @@
-[gd_scene load_steps=13 format=2]
+[gd_scene load_steps=14 format=2]
 
 [ext_resource path="res://Font/alte-haas-grotesk/AlteHaasGroteskBold.ttf" type="DynamicFontData" id=1]
 [ext_resource path="res://Scenes/NetworkSetup.gd" type="Script" id=2]
 [ext_resource path="res://Scenes/UI.gd" type="Script" id=3]
+[ext_resource path="res://462570450_970935368204261_631181553917453303_n__1_-removebg-preview.png" type="Texture" id=4]
 
 [sub_resource type="DynamicFont" id=9]
 size = 56
@@ -142,6 +143,12 @@ custom_styles/pressed = SubResource( 6 )
 custom_styles/focus = SubResource( 7 )
 custom_styles/normal = SubResource( 8 )
 text = "START VOTING"
+
+[node name="462570450970935368204261631181553917453303N1-removebg-preview" type="Sprite" parent="UI"]
+modulate = Color( 1, 1, 1, 0.941176 )
+position = Vector2( 357, 1368 )
+scale = Vector2( 0.568, 0.568 )
+texture = ExtResource( 4 )
 
 [node name="SpawnLocation" type="Node" parent="."]
 
