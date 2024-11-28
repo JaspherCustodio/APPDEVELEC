@@ -142,6 +142,7 @@ margin_left = 16.0
 margin_top = 540.0
 margin_right = 702.0
 margin_bottom = 630.0
+custom_colors/cursor_color = Color( 0, 0, 0, 1 )
 custom_colors/font_color = Color( 0.0941176, 0.101961, 0.184314, 1 )
 custom_fonts/font = SubResource( 6 )
 custom_styles/focus = SubResource( 7 )
