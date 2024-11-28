@@ -40,7 +40,7 @@ func _player_disconnected(id) -> void:
 #			if PersistentNodes.get_children()[player] > max_vote:
 #				max_vote = PersistentNodes.get_children()[player]
 #				player_to_destroy = player
-#
+
 #		if player_to_destroy:
 #			print("%s has been destroyed!" % player_to_destroy)
 #			if username_text_instance != null:

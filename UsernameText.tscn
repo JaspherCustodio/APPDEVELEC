@@ -14,7 +14,7 @@ script = ExtResource( 2 )
 
 [node name="VoterLabel" type="Label" parent="."]
 anchor_right = 1.0
-margin_right = 686.0
+margin_right = 592.0
 margin_bottom = 51.0
 rect_min_size = Vector2( 0, 51 )
 custom_colors/font_color = Color( 0.231373, 0.101961, 0.0823529, 1 )

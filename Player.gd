@@ -1,12 +1,14 @@
 extends KinematicBody2D
 
-var vote = 0 setget set_vote
+var vote = Global.vote setget set_vote
 var can_vote = true
 var max_votes = 3
 var current_votes = 0
 
 var username_text = load("res://UsernameText.tscn")
 var vote_button = load("res://UserButton.tscn")
+
+onready var voterlabel = $VoterResult
 
 var button
 
@@ -129,6 +131,7 @@ func update_vote_mode(vote_mode):
 
 sync func _register_vote(voted):
 	vote += voted
+	voterlabel.text = str(vote)
 #	Global.alive_player.update_votes(self, vote)  # Example of a centralized update
 	print("vote " + str(vote))
 	print("curvote " + str(current_votes))
